@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": "./src/",
+    "resolveJsonModule": true,
+    "newLine": "CRLF",
+    "skipLibCheck": true,
+    "outDir": "./build/",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "es2015", "es2015.iterable", "es2015.promise"],
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["./src/index.tsx"],
+  "exclude": ["node_modules", "scripts"]
+}
